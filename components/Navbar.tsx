@@ -40,7 +40,7 @@ const Navbar = () => {
       <div className="relative">
         <form
           onSubmit={handleSearch}
-          className="absolute md:static -top-6 md:top-10 -left-20 bg-white"
+          className="hidden md:block absolute md:static -top-6 md:top-10 -left-20 bg-white"
         >
           <input
             type="text"
